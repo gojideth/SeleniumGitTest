@@ -17,6 +17,7 @@ public class TestGoogle {
 	public void setUp() {
 		System.out.println("Inicio de prueba");
 		driver = new ChromeDriver();
+		System.out.println("Hola mundo");
 		driver.get("https://www.saucedemo.com");
 		System.setProperty("webdriver.chrome.driver", "./resources/chromedriver.exe");
 	}
